@@ -126,7 +126,8 @@ const Row2 = () => {
             {pieData.map((entry, index) => (
               <Cell 
                 key={`cell-${index}`} 
-                fill={pieColors[index]} />
+                fill={pieColors[index]} 
+              />
             ))}
           </Pie>
         </PieChart>
